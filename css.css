@@ -18,6 +18,7 @@ nav {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 99;
 }
 nav h3 {
   font-family: "Be Vietnam", sans-serif;

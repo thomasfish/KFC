@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #fff;
+  font-family: "Crimson Text", serif;
+  padding-top: 80px;
+}
+nav {
+  background: #fff;
+  background: linear-gradient(-80deg, darkred, hotpink);
+  background: lightblue;
+  background: linear-gradient(-80deg, lightblue, hotpink);
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+nav h3 {
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  float: left;
+  color: #fff;
+  padding-left: 20px;
+}
+nav ul {
+  float: right;
+}
+nav::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  font-family: "Be Vietnam", sans-serif;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+nav li a:hover {
+  opacity: 0.5;
+}
+
+main {
+  background: #fff;
+  width: 100%;
+  max-width: 60%;
+  margin: 20px auto 60px auto;
+}
+
+main .headline {
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 46px;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+main .byline {
+  font-size: 30px;
+  color: #999;
+  padding: 10px 0;
+}
+main p {
+  font-size: 23px;
+  padding: 10px 0;
+  line-height: 1.4;
+}
+main p a {
+  color: hotpink;
+}
+main p a:hover {
+  opacity: 0.5;
+}
+
+main img {
+  width: 100%;
+  padding: 10px 0;
+}
+
+footer {
+  background: #222;
+}
+
+footer section {
+  width: 100%;
+  max-width: 60%;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+}
+
+footer li {
+  margin-left: 20px;
+  padding: 10px 0;
+  color: #999;
+}
+
+footer li a {
+  color: #999;
+  font-family: "Be Vietnam", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer li a:hover {
+  opacity: 0.5;
+}
+
+h4 {
+  color: #fff;
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 30px;
+  padding: 10px 0;
+}
